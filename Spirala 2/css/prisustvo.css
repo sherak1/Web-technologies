@@ -1,0 +1,73 @@
+@media only screen and (max-width: 300px) {
+
+  .pregled {
+    overflow-x: auto;
+    display: block;
+  }
+}
+
+body {
+  background-color: wheat;
+  text-align: left;
+  margin: auto;
+  padding: 30px;
+}
+
+table,
+th,
+td {
+
+  border: 0.5px solid black;
+  border-collapse: collapse;
+  padding: 0.5rem;
+}
+
+td,
+th {
+  text-align: left;
+  width: 75px;
+
+}
+
+table {
+
+  table-layout: fixed;
+  background-color: white;
+  empty-cells: show;
+  width: 100%;
+  text-align: justify;
+}
+
+.prazno {
+  display: none;
+  empty-cells: show;
+}
+
+thead {
+
+  font-size: 120%;
+}
+
+caption {
+  font-weight: bold;
+  font-size: 24px;
+  text-align: left;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+/* tbody>:nth-child(2n) {
+  background-color: rgba(2, 102, 10, 0.666);
+} */
+
+/* tbody>:nth-child(6) {
+  background-color: rgb(199, 12, 12);
+} */
+
+.zelena {
+  background-color: rgba(2, 102, 10, 0.666);
+}
+
+.crvena {
+  background-color: rgb(199, 12, 12);
+}

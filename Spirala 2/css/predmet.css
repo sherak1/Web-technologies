@@ -1,0 +1,117 @@
+@media only screen and (min-width: 300px) {
+	
+	 .meni-wrapper{
+	 
+	 position: fixed;
+	 
+	 margin: 0;
+	 padding: 0;
+	 padding-left: 10px;
+	display: inline-block;
+ 
+	 }
+	 body{
+		margin-top: 200px;
+			scroll-margin-top: 0px;
+
+	 } 
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: rgb(107, 107, 191);
+	/*margin: auto;*/
+	/*margin-top: 200px;*/
+	width: 100%;
+	top:0;
+
+}
+
+.scrollMarginTop {
+	scroll-margin-top: 170px;
+}
+
+.meni-wrapper {
+	padding-left: 10px;
+	display: inline-block;
+	/*position: fixed;*/
+	background-color: rgb(107, 107, 191);
+	top: 0;
+	/*bottom: 0;*/
+ 
+	width: 100%;
+	
+
+}
+
+.meni {
+	background: rgb(209, 186, 186);
+	float: left;
+	margin: 10px;
+	width: 200px;
+	height: 140px;
+}
+
+li {
+	list-style: none;
+	display: inline;
+
+}
+
+.row-padding {
+	padding-left: 10px;
+}
+
+ul {
+	padding-left: 10px;
+}
+
+.row {
+	display: inline-block;
+}
+
+.row>li {
+	padding-right: 10px;
+}
+
+.row>li,
+.row>.column {
+	float: left;
+}
+
+.column {
+	background-color: aliceblue;
+	margin-left: 10px;
+	margin-top: 10px;
+	padding-left: 10px;
+	min-width: 200px;
+	width: 200px;
+}
+
+.ikonica {
+	width: 20px;
+	height: 20px;
+}
+
+.no-top-margin {
+	margin-top: 0;
+}
+
+.redovni {
+	background-color: white;
+}
+
+.izborni {
+	background-color: lightblue;
+}
+
+.kolizija {
+	background-color: gray;
+}
+
+.odsjek {
+	display: grid;
+}
